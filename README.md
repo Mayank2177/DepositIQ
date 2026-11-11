@@ -10,7 +10,6 @@ This project explores a three-stage decision workflow for a bank term-deposit ca
 
 The notebooks combine classical machine learning, simulated quantum classifiers, quantum-style/quantum-inspired optimisation, exact classical optimisation, and circuit-level probability simulation. They demonstrate a research prototype—not physical-quantum execution, quantum advantage, causal campaign uplift, or production-ready predictive performance.
 
-> **Important integration caveat:** Stage 3 uses a separate set of six probabilities for the selected customer IDs. Those values do not match the corresponding Stage 1 predictions in the saved notebook outputs. Stage 3 is correct for its own stated inputs, but the saved notebooks do not yet form a numerically consistent end-to-end probability pipeline. This must be fixed before business deployment.
 
 ---
 
