@@ -1,8 +1,6 @@
 # DepositIQ — Hybrid Quantum-Classical Term Deposit Campaign Pipeline
 
-> **ATOMIQ Hackathon Technical Challenge Solution**  
-> **Repository**: [DepositIQ (Mayank2177/DepositIQ)](https://github.com/Mayank2177/DepositIQ)  
-> **Active Branch**: `ayush`  
+ 
 > **Tech Stack**: React 18, TypeScript, Three.js, React Three Fiber (R3F), Tailwind CSS, Lucide Icons
 
 ---
@@ -67,12 +65,12 @@
 # 1. Clone repository
 git clone https://github.com/Mayank2177/DepositIQ.git
 cd DepositIQ
+cd app
 
-# 2. Checkout to ayush branch
-git checkout ayush
+
 
 # 3. Install dependencies
-npm install --legacy-peer-deps
+npm install 
 
 # 4. Start local development server
 npm run dev
@@ -81,13 +79,4 @@ npm run dev
 npm run build
 ```
 
----
 
-## 📋 Git Workflow (Pull Request Instructions)
-```bash
-git checkout -b ayush
-git add .
-git commit -m "feat: complete DepositIQ 3D interactive frontend pipeline"
-git push origin ayush
-```
-Then open a Pull Request from `ayush` into `main` on GitHub!
